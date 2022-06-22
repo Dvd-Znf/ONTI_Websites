@@ -1,0 +1,59 @@
+body {
+    margin: 0px;
+}
+
+div.zone1 {
+    height: 15vh;
+    width: 100vw;
+    margin: 0px;
+    background-color: #303030;
+}
+
+h1.title {
+    float: left;
+    margin: 0px;
+    margin-left: 30px;
+    color: white;
+    text-shadow: 0px 0px 5px #ff3dae;
+}
+
+a.pageselect {
+    margin: 0px;
+    margin-right: 30px;
+    font-size: large;
+    color: white;
+    background-color: grey ;
+    float: right;
+    text-decoration: none;
+    transition: 500ms;
+}
+
+a.pageselect:hover {
+    color: #ff3dae;
+    font-size: x-large;
+    transition: 500ms;
+}
+
+div.zone2 {
+    display: flex;
+    height: 80vh;
+    width: 100vw;
+    margin: 0px;
+}
+
+iframe.content {
+    flex-grow: 1;
+}
+
+div.zone3 {
+    height: 5vh;
+    width: 100vw;
+    margin: 0px;
+    background-color: #303030;
+}
+
+p.footer {
+    font-style: oblique;
+    color: white;
+    text-shadow: 0px 0px 2px #ff3dae;
+}

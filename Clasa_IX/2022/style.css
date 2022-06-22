@@ -1,0 +1,61 @@
+@keyframes MiscareAlternativa {
+    0%   { left:0px; top:0px;}
+    25%  { left:200px; top:0px;}
+    50%  { left:200px; top:100px;}
+    75%  { left:0px; top:100px;}
+    100% { left:0px; top:0px;}
+}
+
+img.logo {
+    float: right;
+}
+
+h1.slogan {
+    background-color: lightgreen;
+    color: red;
+}
+
+div.zone1 {
+    background-color: forestgreen;
+    height: 30vh;
+    width: 100vw;
+}
+
+div.zone2 {
+    background-color: lightgreen;
+    width: 10vw;
+    height: 60vh;
+    float: left;
+}
+
+div.zone3 {
+    left: 10%;
+    display: block;
+    position: absolute;
+    float: right;
+    height: 60vh;
+    width: 90vw;
+}
+
+div.zone4 {
+    float: left;
+    position: absolute;
+    bottom: 0px;
+    background-color: forestgreen;
+    color: red;
+    font-family: Monotype Corsiva;
+    height: 10vh ;
+    width: 100vw ;
+    text-align: center;
+}
+
+
+div.animation {
+    position: relative;
+    width: 500px;
+    animation-name: MiscareAlternativa;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+

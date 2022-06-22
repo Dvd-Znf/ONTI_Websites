@@ -1,0 +1,35 @@
+body {
+    margin: 0px;
+}
+
+div.zone1 {
+    display: flex;
+    height: 20vh;
+    width: 100vw;
+}
+
+iframe.frzone1 {
+    flex-grow: 1;
+    border: none;
+}
+
+div.zone2 {
+    display: flex;
+    float: left;
+    height: 80vh;
+    width: 30vw;
+}
+
+div.zone3 {
+    display: flex;
+    float: right;
+    height: 48vh;
+    width: 70vw;
+}
+
+div.zone4 {
+    display: flex;
+    float: right;
+    height: 32vh;
+    width: 70vw;
+}

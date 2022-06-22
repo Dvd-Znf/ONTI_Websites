@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="pagestyle.css">
+    <script defer src="DragAndDropAPI.js"></script>
+    <script defer src="collapsable.js"></script>
+</head>
+<body>
+
+    <div class="stage">
+        <h1 class="stage">Cadouri personalizate</h1> <br>
+        <p>Pentru cele mai dragi persoane
+        </p>
+    </div>
+    <img src="../handmade/hdm4.jpg" class="stage">
+
+    <h3 style="clear: both ;">Muta imaginea intre cele doua elemente cu "drag and drop":</h3>
+
+    <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
+        <img src="../handmade/hdm6.jpg" draggable="true" ondragstart="drag(event)" id="drag1" width="500" height="100">
+      </div>
+      
+      <div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+
+    <button class="collapsible">Produse lucrate manual</button>
+        <div class="content">
+         <p>Obiectele populare pe care le admiri în muzee, care poartă amprenta
+            trecutului, pot fi găsite și în spațiile uzuale ale zilelor noastre. Ele sunt create
+            în centrele meșteșugarilor populari din zonele cu tradiție ale României și
+            decorate cu elemente din epoca precreștină sau creștină, simboluri pline de
+            înțeles care uimesc prin frumusețea și mesajul transmise.
+            Artiștii populari se manifestă în multe domenii - olăritul, țesătoria,
+            prelucrarea lemnului. Ei au păstrat tradițiile vii, le-au transmis din generație
+            în generație și folosesc de materiile prime oferite de natură: lut, lemn, apă,
+            fibre vegetale.
+            În orice zonă a țării te îndrepți, vei găsi urme ale trecutului și istorii bine
+            păstrate, care pulsează de o viață autentică, de elemente ce relatează
+            credințele și miturile de odinioară.</p>
+        </div>
+    <button class="collapsible">Mestesug</button>
+        <div class="content">
+          <p>Ceramica poate fi decorată în multe moduri diferite. Unele decorațiuni se pot face înainte sau
+            după ardere.</p>
+        </div>
+    <button class="collapsible">Artizanat</button>
+        <div class="content">
+          <p>Semnificația artizanatului în cultura românească
+            Conform UNESCO, „cultura tradițională şi populară este ansamblul
+            creațiilor unei comunități culturale fondată pe tradiție”, fiind o expresie a
+            identității culturale şi sociale. Pe lângă artizanat, formele culturii tradiționale
+            cuprind “limba, literatura, muzica, dansul, jocurile, mitologia, riturile,
+            cutumele, arhitectura și alte arte”.</p>
+        </div>
+
+</body>
+</html>

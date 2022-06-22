@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Galerie</title>
+    <style>
+        a {
+            float: left;
+        }
+
+        .overlay {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 250px;
+            width: 200px;
+            opacity: 0;
+            transition: .5s ease;
+            border: 5px solid black;
+            background-color: lightgreen;
+        }
+
+        .container:hover .overlay {
+            opacity: 1;
+        }
+
+        .text {
+            color: white;
+            font-size: 20px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <a href="../res/ECO1.jpg" target="_blank"> <div class="container"> <img src="../res/ECO1.jpg"> <div class="overlay"><div class="text">ECO1.png</div></div> </div> </a> 
+    <a href="../res/ECO2.jpg" target="_blank"> <img src="../res/ECO2.jpg"></a> <br>
+    <a href="../res/ECO3.jpg" target="_blank"> <img src="../res/ECO3.jpg"></a>
+    <a href="../res/ECO5.jpg" target="_blank"> <img src="../res/ECO5.jpg"></a> <br>
+</body>
+</html>

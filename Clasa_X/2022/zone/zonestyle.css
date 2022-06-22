@@ -1,0 +1,65 @@
+h1.pagetitle {
+    margin: 0px;
+    border: 0px;
+    font-family: Verdana ;
+    text-align: center;
+}
+
+body.pagetitle {
+    margin: 0px;
+    border: 0px;
+    height: 100vh;
+    width: 100vw;
+    background: rgba(0%, 100%, 0%, 0.75);
+}
+
+a.selectscreen {
+    margin: 20px;
+    font-size: x-large;
+    align-items: center;
+    background-color: aqua;
+    border-radius: 20px;
+    transition: 1s;
+}
+
+a.selectscreen:hover {
+    font-size: xx-large;
+    transition: 1s;
+}
+
+div.selectpage {
+    text-align: center;
+}
+
+body {
+    margin: 0px;
+}
+
+img.sigla {
+    align-items: center;
+    transform: scale(0.5);
+}
+
+table {
+    transform: scale(1.5);
+    margin: 0px;
+    border: 1px solid;
+    margin-top: 80px;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.capat {
+    color: red;
+    background-color: green;
+    font-family: Arial;
+    text-align: center;
+    font-size: 16px;
+}
+
+.locatie {
+    background-color: yellow;
+    font-family: Calibri;
+    font-size: 12px;
+}

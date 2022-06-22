@@ -1,0 +1,15 @@
+body {
+    margin: 0px;
+}
+
+header {
+    text-align: center;
+    background-color: midnightblue;
+    color: white;
+    font-size: 40px;
+    height: 60px;
+}
+
+.selectpage {
+    text-align: center;
+}
