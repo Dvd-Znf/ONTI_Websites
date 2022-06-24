@@ -7,6 +7,8 @@ Scopul acestui proiect este de a aproviziona viitorii "olimpici" cu informati pe
 Eu (Dvd-Znf) o sa incerc cat se poate de mult sa aprovizionez Site-urile pentru anii precedenti  
 Dar un pic de ajutor nu strica!  
 ### Fork --> Change --> Pull Request  
+
+### Puteti vizualiza site-ul pricipal prin github pages: https://dvd-znf.github.io/ONTI_Websites/
   
 ## Ce sa facut pana acum?
 - [X] Clasa IX An 2022;
