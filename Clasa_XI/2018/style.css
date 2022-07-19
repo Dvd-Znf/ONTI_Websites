@@ -1,0 +1,203 @@
+@keyframes spin {
+     100% {transform:rotate(360deg);} 
+}
+
+body {
+    margin: 0px;
+}
+
+div.content {
+    float: left;
+    height: 100vh;
+    width: 40vw;
+    text-align: center;
+}
+
+h3.subtitle {
+    float: right;
+    color: darkorange;
+}
+
+p.content {
+    float: right;
+    color: dimgrey;
+    margin-bottom: 100px;
+}
+
+img.logo {
+    animation:spin 10s linear infinite;
+}
+
+div.contentImg {
+    float: left;
+    height: 100vh;
+    width: 60vw;
+}
+
+img.contentImg {
+    height: 100%;
+    width: 100%;
+}
+
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed; 
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+}
+  
+.sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+  
+.sidebar a:hover {
+    color: #f1f1f1;
+}
+  
+.sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+  
+.openbtn {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #111;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+}
+  
+.openbtn:hover {
+    background-color: #444;
+}
+
+#index #mySidebar .index, 
+#bastioane #mySidebar .bastioane, 
+#monede #mySidebar .monede {
+    color: darkorange;
+}
+
+div.container {
+    float: left;
+    height: 100vh;
+    width: 60vw;
+}
+
+img.harta {
+    height: 100%;
+}
+
+.container button {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.container button:hover {
+    background-color: black;
+}
+
+.container .btn1 {
+    top: 50%;
+    left: 10%;
+}
+
+.container .btn2 {
+    top: 27%;
+    left: 23%;
+}
+
+.container .btn3 {
+    top: 25%;
+    left: 40%;
+}
+
+.container .btn4 {
+    top: 38%;
+    left: 55%;
+}
+
+.container .btn5 {
+    top: 70%;
+    left: 63%;
+}
+
+.container .btn6 {
+    top: 95%;
+    left: 43%;
+}
+
+.container .btn7 {
+    top: 86%;
+    left: 10%;
+}
+
+div.ifrcontent {
+    display: flex;
+    float: right;
+    height: 100vh;
+    width: 30vw;
+    text-align: center;
+}
+
+.ifr {
+    border: 0px;
+    flex-grow: 1;
+}
+
+* {box-sizing: border-box;}
+
+div.overlayContainer {
+    position: relative;
+    float: left;
+    width: 50%;
+    height: 25%;
+}
+
+img.backimg {
+    display:block;
+    margin:auto;
+    height: 100%;
+    width: auto;
+}
+
+div.overlay {
+    position: absolute; 
+    bottom: 0; 
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    text-align: center;
+}
+  
+div.overlayContainer:hover div.overlay {
+    opacity: 1;
+}
