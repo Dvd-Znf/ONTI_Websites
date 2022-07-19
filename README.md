@@ -12,6 +12,12 @@ Dar un pic de ajutor nu strica!
   
 ## Ce sa facut pana acum?
 - [X] Clasa IX An 2022;
+- [ ] Clasa IX An 2018;
+
 - [X] Clasa X An 2022;
+- [ ] Clasa X An 2018;
+
 - [X] Clasa XI An 2022;
+- [X] Clasa XI An 2018;
+
 - [ ] Clasa XII An 2022;
