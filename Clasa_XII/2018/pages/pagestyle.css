@@ -1,0 +1,116 @@
+body {
+    background-color: white;
+    margin: 0px;
+}
+
+html,body { height: 100%; margin: 0px; padding: 0px; }
+
+h1 {
+    color: navy;
+    transition-duration: 1000ms;
+}
+
+h1:hover {
+    color: crimson;
+    transition-duration: 1000ms;
+}
+
+.sec:hover h1.nonhov {
+    color: white;
+    transition-duration: 1000ms;
+    text-shadow: 0px 0px 10px black;
+}
+
+.nonhov {
+    background-color: transparent;
+}
+
+.container {
+    float: left;
+    position: relative;
+    width: 50%;
+}
+
+.container2 {
+    float: left;
+    position: relative;
+    width: 100%;
+}
+  
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+  
+.overlay {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    background-color: white;
+    overflow: hidden;
+    width: 100%;
+    height:0;
+    transition: .5s ease;
+}
+  
+.container:hover .overlay {
+    bottom: 0;
+    height: 100%;
+}
+  
+.img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: auto;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+div.sec {
+    height: 100%;
+    width: 50%;
+    float: left;
+}
+
+.highlight {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #8f4c4c;
+    overflow: hidden;
+    width: 0;
+    height:100%;
+    transition: .5s ease;
+    z-index: -1;
+}
+
+div.sec:hover .highlight {
+    width: 100%;
+}
+
+div.stage {
+    text-align: center;
+    width: 33%;
+    height: 50%;
+    border: 5px solid black ;
+    border-left: 0px;
+    border-top: 0px;
+    float: left;
+}
+
+img.stage {
+    width: auto;
+    height: auto;
+    transition-duration: 0.5s;
+    border: 0px solid white;
+}
+
+div.stage:hover img.stage {
+    border: 10px solid #ff000060;
+    transition-duration: 0.2s;
+}

@@ -1,0 +1,42 @@
+body {
+    margin: 0px;
+    background-color: #778899;
+}
+
+div.header {
+    color: #290000;
+    height: 20vh;
+    width: 100vw;
+    border-bottom: solid black 1px;
+}
+
+div.menu {
+    text-align: center;
+    height: 80vh;
+    width: 19vw;
+    float: left;
+    border-right: solid black 1px;
+}
+
+a.menu {
+    color: #200f0f;
+    text-decoration: none;
+    transition-duration: 50ms;
+}
+
+a.menu:hover{
+    font-size: large;
+    color: #5c2f2f;
+    transition-duration: 50ms;
+}
+
+div.content {
+    display: flex;
+    height: 80vh;
+    width: 80vw;
+    float: left;
+}
+
+iframe.frzone {
+    flex-grow: 1;
+}
