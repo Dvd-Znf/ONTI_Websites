@@ -13,3 +13,9 @@ header {
 .selectpage {
     text-align: center;
 }
+
+.nonexist {
+    color: black;
+    cursor: not-allowed;
+    text-decoration: line-through;
+}
