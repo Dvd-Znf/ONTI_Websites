@@ -21,3 +21,4 @@ Dar un pic de ajutor nu strica!
 - [X] Clasa XI An 2018;
 
 - [ ] Clasa XII An 2022;
+- [X] Clasa XII An 2018;
