@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>ONTI_Websites</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+
+    <div class="header">
+        <img id="Sigla" src="./res/sigla1.png" class="header">
+        <p class="title">Solutii practice pentru o casa ecologica</p>
+        <p id="Txt" class="header">"un nou mod de gandire e necesar daca oamenii <br> vor sa supravietuiasca -Albert Einstein"</p>
+        <input class="closebtn" onclick="CloseTxt()" src="./res/close-button.png" type="image">
+    </div>
+
+    <div class="menu">
+
+        <div class="menubtn">
+            <a onclick="ChangeImgSrcAcasa()" class="menubtn" href="./pages/acasa.html" target="iframe">Acasa</a>
+        </div>
+
+        <div class="menubtn">
+            <a onclick="ChangeImgSrcPanouri()" class="menubtn" href="./pages/panouri.html" target="iframe">Panouri Solare</a>
+        </div>
+
+        <div class="menubtn">
+            <a onclick="ChangeImgSrcMaterial()" class="menubtn" href="./pages/material.html" target="iframe">Materiale Sustenabile</a>
+        </div>
+
+        <div class="menubtn">
+            <a onclick="ChangeImgSrcAcoperis()" class="menubtn" href="./pages/acoperis.html" target="iframe">Acoperis Verde</a>
+        </div>
+
+    </div>
+    
+    <div class="content">
+        <iframe class="frzone" src="./pages/acasa.html" frameborder="0" name="iframe"></iframe>
+    </div>
+
+    <div class="footer">
+        <p class="footer">Olimpiada de Tehnologia Informatiei - etapa nationala 2022</p>
+        <img src="./res/home-button.png" class="footer">
+    </div>
+
+</body>
+</html>

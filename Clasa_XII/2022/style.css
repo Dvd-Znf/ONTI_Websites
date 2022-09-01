@@ -1,0 +1,124 @@
+body {
+    margin: 0px;
+}
+
+div.header {
+    height: 10vh;
+    width: 100vw;
+    background-color: grey;
+    float: left;
+}
+
+p.title {
+    color: white;
+    text-align: center;
+    font-size: larger;
+    /*float: left;*/
+    margin-left: 20vw;
+    display: inline-block;
+    vertical-align: middle;
+    font-style: italic;
+    text-shadow: 0 0 5px #77c700;
+}
+
+p.header {
+    text-align: center;
+    /*float: left;*/
+    margin-left: 20vw;
+    display: inline-block;
+    vertical-align: middle;
+    transition-duration: 1s;
+}
+
+img.header {
+    text-align: center;
+    float: left;
+    margin-left: 120px;
+    border-radius: 50%;
+    border: solid 5px black;
+    height: 100px;
+    position: absolute;
+    width: auto;
+    transition-duration: 1s;
+}
+
+input.closebtn {
+    float: right;
+    height: 30px;
+    width: auto;
+    margin-right: 20%;
+}
+
+div.menu {
+    height: 80vh;
+    width: 10vw;
+    background-color: lightgrey;
+    float: left;
+    text-align: center;
+}
+
+div.menubtn {
+    background-color: grey;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 10%;
+    width: 90%;
+    display: table;
+    box-shadow: 7px 3px 0px black;
+    transition-duration: 0.5s;
+}
+
+a.menubtn {
+    color: white;
+    text-shadow: 1px 1px 2px #77c700;
+    text-decoration: none;
+    display: table-cell;
+    vertical-align: middle;
+    line-height: 100%;
+}
+
+div.menubtn:hover {
+    background-color: white;
+    margin-left: 20px;
+    box-shadow: -7px 3px 0px black;
+}
+
+a.menubtn:hover {
+    color: black;
+    text-shadow: none;
+}
+
+div.content {
+    display: flex;
+    height: 80vh;
+    width: 90vw;
+    float: left;
+}
+
+iframe.frzone {
+    flex-grow: 1;
+}
+
+div.footer {
+    height: 10vh;
+    width: 100vw;
+    background-color: grey;
+    float: left;
+}
+
+p.footer {
+    color: white;
+    font-size: larger;
+    float: left;
+    margin-left: 6vw;
+    font-style: italic;
+    text-shadow: 0 0 5px #77c700;
+}
+
+img.footer {
+    height: 100%;
+    width: auto;
+    border-radius: 50%;
+    float: right;
+    margin-right: 20px;
+}

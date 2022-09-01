@@ -1,0 +1,59 @@
+body {
+    margin: 0px;
+}
+
+img.puzzle1 {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+}
+
+img.puzzle2 {
+    position: absolute;
+    top: 10%;
+    left: 28.2%;
+}
+
+img.puzzle3 {
+    position: absolute;
+    top: 37%;
+    left: 10%;
+}
+
+img.puzzle4 {
+    position: absolute;
+    top: 50.7%;
+    left: 22.4%;
+}
+
+li.Uplv {
+    color: green;
+    font-size: large;
+}
+
+li.Downlv {
+    color: grey;
+    font-size: medium;
+}
+
+div.articlecontainer {
+    margin: 20px;
+    border: 5px solid black;
+    float: left;
+    width: 20vw;
+    height: auto;
+    transition: 0.5s;
+    box-shadow: 0px 0px 0px black;
+}
+
+img.article {
+    width: 100%;
+    height: auto;
+}
+
+div.articlecontainer:hover {
+    width: 23vw;
+    transition: 0.5s;
+    border: 5px solid greenyellow;
+    box-shadow: -10px 4px 0px green;
+}
