@@ -11,14 +11,15 @@ Dar un pic de ajutor nu strica!
 ### Puteti vizualiza site-ul pricipal prin github pages: https://ontiweb.dev/
   
 ## Ce sa facut pana acum?
-- [X] Clasa IX An 2022;
-- [ ] Clasa IX An 2018;
 
-- [X] Clasa X An 2022;
-- [ ] Clasa X An 2018;
-
-- [X] Clasa XI An 2022;
-- [X] Clasa XI An 2018;
-
-- [ ] Clasa XII An 2022;
-- [X] Clasa XII An 2018;
+### An 2022  
+- [X] Clasa_IX  
+- [X] Clasa_X  
+- [X] Clasa_XI  
+- [X] Clasa_XII  
+  
+### An 2018  
+- [ ] Clasa_IX  
+- [ ] Clasa_X  
+- [X] Clasa_XI  
+- [X] Clasa_XII  
