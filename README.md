@@ -23,3 +23,9 @@ Dar un pic de ajutor nu strica!
 - [ ] Clasa_X  
 - [X] Clasa_XI  
 - [X] Clasa_XII  
+  
+### An 2017  
+- [ ] Clasa_IX  
+- [ ] Clasa_X  
+- [ ] Clasa_XI  
+- [ ] Clasa_XII  
