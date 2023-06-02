@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+<meta charset="UTF-8">
+<style>
+body {background-image: url("creier-c.jpg");background-repeat: no-repeat;background-size:cover;text-align:center;}
+label,input {color:blue; font-size: 25px; background-color:lightblue; border: red 3px solid;}
+h1 {color: blue;background-color:yellow;text-align:center;}
+</style>
+</head>
+<body>
+<h1>Maxine calculează preţuri</h1>
+<label>Preţ fără TVA: </label><input id="pret" type="number" /><br>
+<label>Număr bucăţi: </label><input id="buc" type="number" /><br>
+<label for="produs">Tip de produs</label>
+  <select id="produs">
+<option value=1>Aliment</option>
+<option value=2>Non-Aliment</option>
+</select>
+<br>
+<input type="button" value="Total" onclick="total()" id="s" /><br>
+<script>
+function total() 
+{
+  var tva;
+  var a = Number(document.getElementById("pret").value);
+  var b = Number(document.getElementById("buc").value);
+  var c = Number(document.getElementById("produs").value);
+  if(c==1) tva=0.09; else if (c==3) tva=0.05; else tva= 0.19; 
+  var s = a * b*(1+tva);
+  document.getElementById("s").value="Totalul este "+s.toFixed(2);
+}
+</script>
+</body>
+</html>

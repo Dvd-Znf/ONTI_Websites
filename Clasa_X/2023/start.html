@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+<meta charset="UTF-8">
+<style>
+body {background-image: url("creier.jpg");}
+label,input {color:blue; font-size: 25px;background-color:lightblue;}
+h1 {margin-left:34%;width:30%;text-align:center;}
+iframe {border: magenta 3px solid;margin-left:33%;margin-top: -5%;display: inline-block;width:600px;height:500px;}
+div.m {margin-left:1%; width:25%; background-color: magenta;}
+li {color: blue;font-size: 25px;}
+a {text-decoration:none;}
+p {font-size: 25px; font-weight: bold;color:magenta;}
+</style>
+</head>
+<body>
+<h1>Maxine învaţă sau ştie deja</h1>
+<div class="m">
+<ul>
+<li><a href="start.html" >Maxine la start</a></li>
+<li><a href="1.html" target="cadru">Maxine calculează</a></li>
+<li><a href="2.html" target="cadru">Maxine rezolvă ecuaţii</a></li>
+<li><a href="3.html" target="cadru">Maxine numără</a></li>
+<li><a href="4.html" target="cadru">Maxine numără în Engleză</a></li>
+<li><a href="6.html" target="cadru">Maxine se joacă cu forme geometrice</a></li>
+<li><a href="7.html" target="cadru">Maxine calculeză preţuri</a></li>
+<li><a href="8.html" target="cadru">Maxine desenează grafice</a></li>
+<li><a href="9.html" target="cadru">Maxine joacă X şi 0</a></li>
+</ul>
+</div>
+<iframe name="cadru" src="0.html"></iframe>
+<script>
+const d = new Date();
+document.getElementById("data_ora").innerHTML = d;
+</script>
+</body>
+</html>
