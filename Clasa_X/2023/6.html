@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+<meta charset="UTF-8">
+<style>
+body {background-image: url("creier-c.jpg");background-repeat: no-repeat;background-size:cover;text-align:center;}
+label,input {color:blue; font-size: 25px; background-color:lightblue; border: red 3px solid;}
+h1 {color: blue;background-color:yellow;text-align:center;}
+</style>
+</head>
+<body>
+<h1>Maxine se joacă cu forme geometrice</h1>
+<input type="button" value="Aleg o formă" onclick="aleg()" /><br>
+<img id="poza"></img><br>
+<label for="forme">Cam ce reprezintă ...</label>
+  <select id="forme">
+<option value=1>Disc</option>
+<option value=2>Dreptunghi</option>
+<option value=5>Hexagon</option>
+<option value=7>Pătrat</option>
+<option value=8>Pentagon</option>
+<option value=9>Romb</option>
+<option value=3>Triunghi dreptunghic</option>
+<option value=4>Triunghi echilateral</option>
+<option value=6>Triunghi isoscel</option>
+</select>
+<br>
+<input type="button" value="Verifică" onclick="verific()" id="Alegere" />
+<script>
+var a;
+function aleg(){
+  a = 1+Math.floor(Math.random() * 9);var b;
+  switch(a) {
+case 1: b="disc.jpg"; break;
+case 2: b="dreptunghi.jpg"; break;
+case 3: b="dreptunghic.jpg"; break;
+case 4: b="echilateral.jpg"; break;
+case 5: b="hexagon.jpg"; break;
+case 6: b="isoscel.jpg"; break;
+case 7: b="patrat.jpg"; break;
+case 8: b="pentagon.jpg"; break;
+case 9: b="romb.jpg"; break;
+case 10: b="trapez.jpg"; break;
+default: b="creier.jpg"
+}
+ document.getElementById("poza").src=b;
+}
+function verific() {
+  var t;
+  var raspuns = document.getElementById("forme").value;
+  if(raspuns==a) {t="Bravo !";} else {t="Nu chiar ! Mai încearcă !";}
+  document.getElementById("Alegere").value=t;
+}
+</script>
+</body>
+</html>

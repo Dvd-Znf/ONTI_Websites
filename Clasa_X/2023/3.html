@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+<meta charset="UTF-8">
+<style>
+body {background-image: url("creier-c.jpg");background-repeat: no-repeat;background-size:cover;text-align:center;}
+label,input {color:blue; font-size: 25px; background-color:lightblue; border: red 3px solid;}
+h1 {color: blue;background-color:yellow;text-align:center;}
+</style>
+</head>
+<body>
+<h1>Maxine numără</h1>
+<label>Start: </label><input id="t0" type="number" /><br>
+<label>Stop: </label><input id="tn" type="number" /><br>
+<input type="button" value="Număr" onclick="numar()" id="s" /><br>
+<script>
+function numar()
+{
+  var t;
+  var t0 = parseInt(Number(document.getElementById("t0").value));
+  var tn = parseInt(Number(document.getElementById("tn").value));
+  if(t0>tn){var h=t0;t0=tn;tn=h;}
+  var s = tn-t0+1;
+  if(s==1) {t="{"+t0+"}";} else if(s==2){t="{"+t0+";"+tn+"}";} else {t="{"+t0+";"+(t0+1)+";...;"+tn+"}";}
+  document.getElementById("s").value="În mulţimea "+t+" sunt "+s+" numere.";
+}
+</script>
+</body>
+</html>

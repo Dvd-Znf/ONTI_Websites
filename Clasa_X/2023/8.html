@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+<meta charset="UTF-8">
+<style>
+body {background-image: url("creier-c.jpg");background-repeat: no-repeat;background-size:cover;text-align:center;}
+label,input {color:blue; font-size: 25px; background-color:lightblue; border: red 3px solid;}
+h1 {color: blue;background-color:yellow;text-align:center;}
+</style>
+</head>
+<body>
+<h1>Maxine reprezintă funcţia f(x)=ax+b</h1>
+<label>a: </label><input id="a" type="number" /><br>
+<label>b: </label><input id="b" type="number" /><br>
+<input type="button" value="desen" onclick="desen()" id="s" /><br>
+<canvas id="grafic" width="500" height="250" style="border:1px solid magenta"></canvas>
+<script>
+var a,b;
+function desen() 
+{
+  var s,t;
+  a = Number(document.getElementById("a").value);
+  b = Number(document.getElementById("b").value);
+  if (a==0) {t="";} else if(a==-1) {t="-x";} else if(a==1) {t="x";} else {t=a+"x";}
+  if(b>0 && a!=0) {t+="+"+b;} else if (b!=0){t+=b;}
+  document.getElementById("s").value="Reprezentare pentru f(x)="+t;
+  grafic();
+}	
+function grafic()
+{
+const canvas = document.getElementById("grafic");
+const ctx = canvas.getContext("2d");
+	canvas.height = 250;canvas.width = 500;
+	ctx.fillStyle = "#FFFFFF";ctx.fillRect(0, 00, 500, 250);
+	ctx.beginPath();
+	ctx.strokeStyle = "black"
+	ctx.moveTo(0, 125);	ctx.lineTo(500, 125);
+	ctx.moveTo(495, 120); ctx.lineTo(500, 125);
+	ctx.moveTo(495, 130); ctx.lineTo(500, 125);
+	ctx.moveTo(250, 0); ctx.lineTo(250, 250);
+	ctx.moveTo(245, 5); ctx.lineTo(250, 0);
+	ctx.moveTo(255, 5); ctx.lineTo(250, 0);
+	ctx.stroke();ctx.strokeText("O",240,123);ctx.strokeText("x",485,120);ctx.strokeText("y",235,10);
+	ctx.closePath();
+	ctx.beginPath();
+	ctx.strokeStyle = "blue";ctx.lineWidth = 4;
+	ctx.moveTo(0, -f(-250)+125); ctx.lineTo(500, -f(250)+125);ctx.stroke();ctx.closePath();            
+}
+function f(x) {
+  return x * a + b;
+}
+</script>
+</body>
+</html>

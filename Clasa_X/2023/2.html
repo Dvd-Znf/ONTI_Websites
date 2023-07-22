@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+<meta charset="UTF-8">
+<style>
+body {background-image: url("creier-c.jpg");background-repeat: no-repeat;background-size:cover;text-align:center;}
+label,input {color:blue; font-size: 25px; background-color:lightblue; border: red 3px solid;}
+h1 {color: blue;background-color:yellow;text-align:center;}
+</style>
+</head>
+<body>
+<h1>Maxine rezolvă ecuaţii de forma ax+b=0</h1>
+<label>a = </label><input id="a" type="number" /><br>
+<label>b = </label><input id="b" type="number" /><br>
+<input type="button" value="Solutie" onclick="solutie()" id="c" />
+<script>
+function solutie() 
+{
+  var s,t;
+  var a = Number(document.getElementById("a").value);
+  var b = Number(document.getElementById("b").value);
+  if (a!=0) {s= " are S = {"+( -b/a )+"}";} else if (b==0){ s = " are S = R";} else {s = " nu are soluţii." ;}
+  if (a==0) {t="";} else if(a==-1) {t="-x";} else if(a==1) {t="x";} else {t=a+"x";}
+  if(b>0) {t+="+"+b;} else if (b!=0){t+=b;}
+  t+="=0";
+  document.getElementById("c").value="Ecuaţia "+t+s;
+}
+</script>
+</body>
+</html>
