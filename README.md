@@ -1,6 +1,6 @@
-# *Bun venit* ONTI_Websites!
+# *Bun venit* ONTI_Websites! 🥇
 ONTI_Websites este cea mai buna resursa pentru pasionatii de *Tehnologia Informatiei*  
-![Screenshot](/Screenshot.png)  
+![Screenshot](/static/Screenshot.png)  
 ## Ce contine acest repertoriu?
 Acest repertoriu contine raspunsul pentru ultimul subiect de la ONTIC (Website-ul)  
 Scopul acestui proiect este de a aproviziona viitorii "olimpici" cu informati pentru a invata HTML/CSS/JS
