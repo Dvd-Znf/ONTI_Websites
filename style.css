@@ -19,3 +19,22 @@ header {
     cursor: not-allowed;
     text-decoration: line-through;
 }
+
+footer {
+    background-color: midnightblue;
+    color: white;
+}
+
+.footerright {
+    /*float: right;*/
+    margin-bottom: 0px;
+    padding: 1%;
+    margin-left: 50%;
+    width: 50%;
+}
+
+.footerleft {
+    /*float: left;*/
+    margin-bottom: 0px;
+    width: 50%;
+}
