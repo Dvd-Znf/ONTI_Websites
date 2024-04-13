@@ -12,7 +12,9 @@ Dar un pic de ajutor nu strica!
 ### Puteti vizualiza site-ul pricipal prin github pages: https://ontiweb.dev/
   
 ## Ce sa facut pana acum?
-  
+    
+### An 2024 (In curand...)
+     
 ### An 2023   
 - [X] Clasa_IX    
 - [ ] Clasa_X    
