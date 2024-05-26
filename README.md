@@ -13,7 +13,11 @@ Dar un pic de ajutor nu strica!
   
 ## Ce sa facut pana acum?
     
-### An 2024 (In curand...)
+### An 2024
+- [ ] Clasa_IX    
+- [ ] Clasa_X    
+- [ ] Clasa_XI    
+- [ ] Clasa_XII    
      
 ### An 2023   
 - [X] Clasa_IX    
