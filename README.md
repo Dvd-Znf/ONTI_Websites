@@ -45,5 +45,5 @@ Dar un pic de ajutor nu strica!
 
 #### Copyright (c) 2023 Dvd-Znf | Proiect sub Licenta MIT
 Acest proiect este unul neoficial, fara garantie si nesustinut de nici-o organizatie,     
-ontiweb.dev este neafiliat cu Ministerul Educatiei sau orice Inspectorat Scolar  
+ontiweb.dev este neafiliat cu Ministerul Educatiei sau orice Inspectorat Scolar!  
          
