@@ -9,7 +9,7 @@ Eu (Dvd-Znf) o sa incerc cat se poate de mult sa aprovizionez Site-urile pentru 
 Dar un pic de ajutor nu strica!  
 ### Fork --> Change --> Pull Request  
 
-### Puteti vizualiza site-ul pricipal prin github pages: https://ontiweb.dev/
+### Puteti vizualiza site-ul pricipal prin github pages: https://dvd-znf.github.io/ONTI_Websites/
   
 ## Ce sa facut pana acum?
     
