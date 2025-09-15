@@ -5,7 +5,7 @@ ONTI_Websites este cea mai buna resursa pentru pasionatii de *Tehnologia Informa
 Acest repertoriu contine raspunsul pentru ultimul subiect de la ONTIC (Website-ul)  
 Scopul acestui proiect este de a aproviziona viitorii "olimpici" cu informati pentru a invata HTML/CSS/JS
 ## Cum pot contribuii?
-Eu (Dvd-Znf) o sa incerc cat se poate de mult sa aprovizionez Site-urile pentru anii precedenti  
+O sa incerc cat se poate de mult sa aprovizionez Site-urile pentru anii precedenti  
 Dar un pic de ajutor nu strica!  
 ### Fork --> Change --> Pull Request  
 
